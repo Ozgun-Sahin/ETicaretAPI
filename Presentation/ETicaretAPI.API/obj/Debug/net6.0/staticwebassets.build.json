@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mQWP9E8FHwpKw+uGFQSozlX1bDcDoKyjVddpuEEaHd8=",
+  "Hash": "PgkC7V359KvDU8N6s7oBySv8jGnZ1mYc+wx+3wr/V5s=",
   "Source": "ETicaretAPI.API",
   "BasePath": "_content/ETicaretAPI.API",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resoruce\\files\\OS_CV.pdf",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resoruce/files/OS_CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resoruce\\files\\OS_CV.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resoruce\\files\\Tensler.jpg",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resoruce/files/Tensler.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resoruce\\files\\Tensler.jpg"
+    },
     {
       "Identity": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resource\\product-images\\Tensler.jpg",
       "SourceId": "ETicaretAPI.API",
