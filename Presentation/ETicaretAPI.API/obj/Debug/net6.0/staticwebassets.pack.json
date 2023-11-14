@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\photo-images\\Tensler.jpg",
+      "PackagePath": "staticwebassets\\photo-images\\Tensler.jpg"
+    },
+    {
       "Id": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resoruce\\files\\OS_CV.pdf",
       "PackagePath": "staticwebassets\\resoruce\\files\\OS_CV.pdf"
     },
