@@ -1,4 +1,5 @@
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.deps.json
+C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.runtimeconfig.json
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.dll
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.pdb
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Application.dll
@@ -14,6 +15,5 @@ C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.dll
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\refint\ETicaretAPI.Persistence.dll
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.pdb
-C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ref\ETicaretAPI.Persistence.dll
-C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.runtimeconfig.json
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.genruntimeconfig.cache
+C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ref\ETicaretAPI.Persistence.dll
