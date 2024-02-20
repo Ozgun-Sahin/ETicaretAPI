@@ -939,6 +939,7 @@
       "ETicaretAPI.Persistence/1.0.0": {
         "dependencies": {
           "ETicaretAPI.Application": "1.0.0",
+          "Google.Apis.Auth": "1.66.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore": "7.0.9",
