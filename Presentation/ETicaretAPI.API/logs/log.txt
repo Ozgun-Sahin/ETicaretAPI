@@ -1,0 +1,1196 @@
+2024-02-28 13:16:59.139 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-28 13:16:59.889 +03:00 [INF] Now listening on: https://localhost:7198
+2024-02-28 13:16:59.891 +03:00 [INF] Now listening on: http://localhost:5284
+2024-02-28 13:16:59.897 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 13:16:59.898 +03:00 [INF] Hosting environment: Development
+2024-02-28 13:16:59.899 +03:00 [INF] Content root path: C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-02-29 12:52:40.777 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 12:52:41.226 +03:00 [INF] Now listening on: https://localhost:7198
+2024-02-29 12:52:41.228 +03:00 [INF] Now listening on: http://localhost:5284
+2024-02-29 12:52:41.232 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 12:52:41.233 +03:00 [INF] Hosting environment: Development
+2024-02-29 12:52:41.234 +03:00 [INF] Content root path: C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-02-29 13:15:46.059 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 13:15:46.329 +03:00 [INF] Now listening on: https://localhost:7198
+2024-02-29 13:15:46.331 +03:00 [INF] Now listening on: http://localhost:5284
+2024-02-29 13:15:46.336 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 13:15:46.338 +03:00 [INF] Hosting environment: Development
+2024-02-29 13:15:46.339 +03:00 [INF] Content root path: C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-02-29 13:17:41.026 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products - -
+2024-02-29 13:17:41.107 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:17:41.213 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:17:41.221 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:17:41.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products - - - 401 0 - 208.5918ms
+2024-02-29 13:17:57.938 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/auth/facebook-login - -
+2024-02-29 13:17:57.940 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:17:57.948 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/auth/facebook-login - - - 204 - - 9.9493ms
+2024-02-29 13:17:57.953 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/facebook-login application/json 845
+2024-02-29 13:17:57.959 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:17:57.966 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.FacebookLogin (ETicaretAPI.API)'
+2024-02-29 13:17:58.022 +03:00 [INF] Route matched with {action = "FacebookLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FacebookLogin(ETicaretAPI.Application.Features.Commands.AppUser.FacebokLogin.FacebookLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:17:58.468 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=734570465069207&client_secret=0801bd20044228460564e356cc0afbff&grant_type=client_credentials"
+2024-02-29 13:17:58.475 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=734570465069207&client_secret=0801bd20044228460564e356cc0afbff&grant_type=client_credentials"
+2024-02-29 13:17:58.788 +03:00 [INF] Received HTTP response headers after 308.3454ms - 200
+2024-02-29 13:17:58.791 +03:00 [INF] End processing HTTP request after 328.1538ms - 200
+2024-02-29 13:17:58.795 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAKcFoOiCJcBO4fmnC6iddjspCofz0t6NU7vJNrUKYpBgRYej5kvF41okRCRUR8jnDDSKjOZCnGajWPkZBVCSQjwOCfwPfcleLA6Cw4GxFXNcEFe08kZB0K983unR1MkGTxzMnrilk3vYwOFt5r0ZCFLNpnNRrMZClkdMnj8d19XmyH00nHGKZB17CDjK6HxSVbanxh1oQYoe03EzD8gZDZD&access_token=734570465069207|c-dtTUsHGt6uMWThvG0Gk4jUUCA"
+2024-02-29 13:17:58.796 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAKcFoOiCJcBO4fmnC6iddjspCofz0t6NU7vJNrUKYpBgRYej5kvF41okRCRUR8jnDDSKjOZCnGajWPkZBVCSQjwOCfwPfcleLA6Cw4GxFXNcEFe08kZB0K983unR1MkGTxzMnrilk3vYwOFt5r0ZCFLNpnNRrMZClkdMnj8d19XmyH00nHGKZB17CDjK6HxSVbanxh1oQYoe03EzD8gZDZD&access_token=734570465069207|c-dtTUsHGt6uMWThvG0Gk4jUUCA"
+2024-02-29 13:17:59.072 +03:00 [INF] Received HTTP response headers after 275.3336ms - 200
+2024-02-29 13:17:59.073 +03:00 [INF] End processing HTTP request after 277.8984ms - 200
+2024-02-29 13:17:59.081 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAKcFoOiCJcBO4fmnC6iddjspCofz0t6NU7vJNrUKYpBgRYej5kvF41okRCRUR8jnDDSKjOZCnGajWPkZBVCSQjwOCfwPfcleLA6Cw4GxFXNcEFe08kZB0K983unR1MkGTxzMnrilk3vYwOFt5r0ZCFLNpnNRrMZClkdMnj8d19XmyH00nHGKZB17CDjK6HxSVbanxh1oQYoe03EzD8gZDZD"
+2024-02-29 13:17:59.082 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAKcFoOiCJcBO4fmnC6iddjspCofz0t6NU7vJNrUKYpBgRYej5kvF41okRCRUR8jnDDSKjOZCnGajWPkZBVCSQjwOCfwPfcleLA6Cw4GxFXNcEFe08kZB0K983unR1MkGTxzMnrilk3vYwOFt5r0ZCFLNpnNRrMZClkdMnj8d19XmyH00nHGKZB17CDjK6HxSVbanxh1oQYoe03EzD8gZDZD"
+2024-02-29 13:17:59.305 +03:00 [INF] Received HTTP response headers after 221.1525ms - 200
+2024-02-29 13:17:59.305 +03:00 [INF] End processing HTTP request after 224.6251ms - 200
+2024-02-29 13:18:00.846 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2024-02-29 13:18:01.008 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2024-02-29 13:18:01.070 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2024-02-29 13:18:01.075 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2024-02-29 13:18:01.079 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2024-02-29 13:18:01.306 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-02-29 13:18:01.466 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NamemSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-02-29 13:18:01.492 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.FacebokLogin.FacebookLoginCommandResponse'.
+2024-02-29 13:18:01.534 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.FacebookLogin (ETicaretAPI.API) in 3506.168ms
+2024-02-29 13:18:01.537 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.FacebookLogin (ETicaretAPI.API)'
+2024-02-29 13:18:01.558 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/facebook-login application/json 845 - 200 - application/json;+charset=utf-8 3604.1023ms
+2024-02-29 13:22:19.965 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:22:19.969 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:22:19.974 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - - - 204 - - 9.6953ms
+2024-02-29 13:22:19.978 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:22:19.978 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:22:20.045 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-02-29 13:22:20.119 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+2024-02-29 13:22:20.120 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:22:20.124 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:22:20.126 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 401 0 - 147.6654ms
+2024-02-29 13:22:20.130 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/auth/refreshtokenlogin - -
+2024-02-29 13:22:20.131 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:22:20.133 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/auth/refreshtokenlogin - - - 204 - - 2.4712ms
+2024-02-29 13:22:20.134 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63
+2024-02-29 13:22:20.135 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:22:20.136 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:22:20.140 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:22:20.260 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."RefreshToken" = @__refreshToken_0
+LIMIT 1
+2024-02-29 13:22:20.404 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API) in 261.269ms
+2024-02-29 13:22:20.406 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:22:20.488 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ETicaretAPI.Application.Exceptions.NotFoundUserException: Kullanıcı adı veya şifre hatalı.
+   at ETicaretAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Services\AuthService.cs:line 151
+   at ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Controllers\AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Program.cs:line 101
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-29 13:22:20.649 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63 - 500 - text/plain;+charset=utf-8 514.5492ms
+2024-02-29 13:22:23.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:22:23.471 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:22:23.473 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-02-29 13:22:23.475 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+2024-02-29 13:22:23.476 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:22:23.477 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:22:23.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 401 0 - 9.3309ms
+2024-02-29 13:22:23.495 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63
+2024-02-29 13:22:23.498 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:22:23.500 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:22:23.501 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:22:23.519 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."RefreshToken" = @__refreshToken_0
+LIMIT 1
+2024-02-29 13:22:23.588 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API) in 85.6738ms
+2024-02-29 13:22:23.590 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:22:23.642 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ETicaretAPI.Application.Exceptions.NotFoundUserException: Kullanıcı adı veya şifre hatalı.
+   at ETicaretAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Services\AuthService.cs:line 151
+   at ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Controllers\AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Program.cs:line 101
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-29 13:22:23.649 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63 - 500 - text/plain;+charset=utf-8 153.7227ms
+2024-02-29 13:22:24.748 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:22:24.749 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:22:24.750 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-02-29 13:22:24.752 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+2024-02-29 13:22:24.753 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:22:24.753 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:22:24.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 401 0 - 6.1152ms
+2024-02-29 13:22:24.766 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63
+2024-02-29 13:22:24.767 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:22:24.768 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:22:24.770 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:22:24.788 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."RefreshToken" = @__refreshToken_0
+LIMIT 1
+2024-02-29 13:22:24.872 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API) in 100.0558ms
+2024-02-29 13:22:24.874 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:22:24.929 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ETicaretAPI.Application.Exceptions.NotFoundUserException: Kullanıcı adı veya şifre hatalı.
+   at ETicaretAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Services\AuthService.cs:line 151
+   at ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Controllers\AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Program.cs:line 101
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-29 13:22:24.938 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63 - 500 - text/plain;+charset=utf-8 172.5438ms
+2024-02-29 13:25:13.600 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 13:25:13.982 +03:00 [INF] Now listening on: https://localhost:7198
+2024-02-29 13:25:13.984 +03:00 [INF] Now listening on: http://localhost:5284
+2024-02-29 13:25:13.990 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 13:25:13.992 +03:00 [INF] Hosting environment: Development
+2024-02-29 13:25:13.993 +03:00 [INF] Content root path: C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-02-29 13:29:05.262 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 13:29:05.569 +03:00 [INF] Now listening on: https://localhost:7198
+2024-02-29 13:29:05.571 +03:00 [INF] Now listening on: http://localhost:5284
+2024-02-29 13:29:05.576 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-29 13:29:05.577 +03:00 [INF] Hosting environment: Development
+2024-02-29 13:29:05.578 +03:00 [INF] Content root path: C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-02-29 13:29:13.306 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products - -
+2024-02-29 13:29:13.364 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:13.436 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:29:13.444 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:29:13.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products - - - 401 0 - 149.6356ms
+2024-02-29 13:29:17.002 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/auth/facebook-login - -
+2024-02-29 13:29:17.003 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:17.007 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/auth/facebook-login - - - 204 - - 4.6916ms
+2024-02-29 13:29:17.008 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/facebook-login application/json 851
+2024-02-29 13:29:17.012 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:17.019 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.FacebookLogin (ETicaretAPI.API)'
+2024-02-29 13:29:17.058 +03:00 [INF] Route matched with {action = "FacebookLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FacebookLogin(ETicaretAPI.Application.Features.Commands.AppUser.FacebokLogin.FacebookLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:29:17.306 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=734570465069207&client_secret=0801bd20044228460564e356cc0afbff&grant_type=client_credentials"
+2024-02-29 13:29:17.311 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=734570465069207&client_secret=0801bd20044228460564e356cc0afbff&grant_type=client_credentials"
+2024-02-29 13:29:17.563 +03:00 [INF] Received HTTP response headers after 247.3686ms - 200
+2024-02-29 13:29:17.566 +03:00 [INF] End processing HTTP request after 266.1624ms - 200
+2024-02-29 13:29:17.571 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAKcFoOiCJcBOZBLvzzI6QZA2uI4Vrfucgha3bsjxTVMH7YZANWf8sbzZCAUTvoSPzv9UJF6I4gxFRL5pWmT4KaGryFR9qTybftemLaPftpsTDERrtmDadvZCpS1ZBWfqKox3MYU370FuT55mZBWmum3meaunYScDTJBLDxIZBZA5FAZAbhOBPSIGRBcICNCLgZB2ii0vZCQ2bmQLnq4nwI8VwZDZD&access_token=734570465069207|c-dtTUsHGt6uMWThvG0Gk4jUUCA"
+2024-02-29 13:29:17.572 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAKcFoOiCJcBOZBLvzzI6QZA2uI4Vrfucgha3bsjxTVMH7YZANWf8sbzZCAUTvoSPzv9UJF6I4gxFRL5pWmT4KaGryFR9qTybftemLaPftpsTDERrtmDadvZCpS1ZBWfqKox3MYU370FuT55mZBWmum3meaunYScDTJBLDxIZBZA5FAZAbhOBPSIGRBcICNCLgZB2ii0vZCQ2bmQLnq4nwI8VwZDZD&access_token=734570465069207|c-dtTUsHGt6uMWThvG0Gk4jUUCA"
+2024-02-29 13:29:17.746 +03:00 [INF] Received HTTP response headers after 172.4506ms - 200
+2024-02-29 13:29:17.747 +03:00 [INF] End processing HTTP request after 175.8472ms - 200
+2024-02-29 13:29:17.756 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAKcFoOiCJcBOZBLvzzI6QZA2uI4Vrfucgha3bsjxTVMH7YZANWf8sbzZCAUTvoSPzv9UJF6I4gxFRL5pWmT4KaGryFR9qTybftemLaPftpsTDERrtmDadvZCpS1ZBWfqKox3MYU370FuT55mZBWmum3meaunYScDTJBLDxIZBZA5FAZAbhOBPSIGRBcICNCLgZB2ii0vZCQ2bmQLnq4nwI8VwZDZD"
+2024-02-29 13:29:17.757 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAKcFoOiCJcBOZBLvzzI6QZA2uI4Vrfucgha3bsjxTVMH7YZANWf8sbzZCAUTvoSPzv9UJF6I4gxFRL5pWmT4KaGryFR9qTybftemLaPftpsTDERrtmDadvZCpS1ZBWfqKox3MYU370FuT55mZBWmum3meaunYScDTJBLDxIZBZA5FAZAbhOBPSIGRBcICNCLgZB2ii0vZCQ2bmQLnq4nwI8VwZDZD"
+2024-02-29 13:29:17.994 +03:00 [INF] Received HTTP response headers after 235.8672ms - 200
+2024-02-29 13:29:17.995 +03:00 [INF] End processing HTTP request after 239.5774ms - 200
+2024-02-29 13:29:19.525 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2024-02-29 13:29:19.683 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2024-02-29 13:29:19.746 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2024-02-29 13:29:19.751 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2024-02-29 13:29:19.755 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2024-02-29 13:29:19.903 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-02-29 13:29:20.048 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NamemSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-02-29 13:29:20.076 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.FacebokLogin.FacebookLoginCommandResponse'.
+2024-02-29 13:29:20.113 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.FacebookLogin (ETicaretAPI.API) in 3048.3057ms
+2024-02-29 13:29:20.115 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.FacebookLogin (ETicaretAPI.API)'
+2024-02-29 13:29:20.135 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/facebook-login application/json 851 - 200 - application/json;+charset=utf-8 3126.9880ms
+2024-02-29 13:29:23.269 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:23.270 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:23.271 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - - - 204 - - 1.9808ms
+2024-02-29 13:29:23.272 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:23.273 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:23.354 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:23.367 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:23.504 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:23.520 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-29 13:29:23.522 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-02-29 13:29:23.541 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:23.551 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:23.592 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 221.7989ms
+2024-02-29 13:29:23.594 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:23.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 322.3184ms
+2024-02-29 13:29:25.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:25.839 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:25.840 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:25.842 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:25.854 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:25.858 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:25.859 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:25.860 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 17.5728ms
+2024-02-29 13:29:25.862 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:25.863 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 25.5515ms
+2024-02-29 13:29:27.048 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:27.049 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:27.050 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:27.051 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:27.056 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:27.057 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:27.060 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:27.061 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 8.8007ms
+2024-02-29 13:29:27.062 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:27.063 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 15.6483ms
+2024-02-29 13:29:28.025 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:28.026 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:28.027 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:28.028 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:28.031 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:28.034 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:28.036 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:28.037 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 6.9627ms
+2024-02-29 13:29:28.038 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:28.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 13.6815ms
+2024-02-29 13:29:28.923 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:28.924 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:28.925 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - - - 204 - - 1.9591ms
+2024-02-29 13:29:28.926 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:28.927 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:28.928 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:28.930 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:28.933 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:28.936 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:28.939 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:28.940 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 8.6434ms
+2024-02-29 13:29:28.941 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:28.943 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 16.1973ms
+2024-02-29 13:29:29.923 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:29.924 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:29.925 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:29.927 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:29.930 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:29.932 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:29.934 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:29.935 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 6.7787ms
+2024-02-29 13:29:29.936 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:29.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 13.6271ms
+2024-02-29 13:29:30.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:30.884 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:30.885 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:30.885 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:30.893 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:30.918 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:30.922 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:30.923 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 35.8931ms
+2024-02-29 13:29:30.925 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:30.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 43.6814ms
+2024-02-29 13:29:32.098 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:32.100 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:32.101 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:32.102 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:32.105 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:32.107 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:32.109 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:32.111 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 7.2494ms
+2024-02-29 13:29:32.112 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:32.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 14.7146ms
+2024-02-29 13:29:33.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:33.017 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:33.018 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:33.019 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:33.023 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:33.025 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:33.027 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:33.029 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 7.5342ms
+2024-02-29 13:29:33.030 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:33.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 15.8224ms
+2024-02-29 13:29:34.047 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:34.048 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:34.049 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - - - 204 - - 1.7360ms
+2024-02-29 13:29:34.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:34.051 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:34.053 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-02-29 13:29:34.076 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+2024-02-29 13:29:34.076 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:29:34.079 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:29:34.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 401 0 - 30.0522ms
+2024-02-29 13:29:34.083 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/auth/refreshtokenlogin - -
+2024-02-29 13:29:34.084 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:34.085 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/auth/refreshtokenlogin - - - 204 - - 1.8971ms
+2024-02-29 13:29:34.090 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63
+2024-02-29 13:29:34.091 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:34.091 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:29:34.095 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:29:34.107 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."RefreshToken" = @__refreshToken_0
+LIMIT 1
+2024-02-29 13:29:34.113 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-02-29 13:29:34.118 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NamemSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-02-29 13:29:34.121 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandResponse'.
+2024-02-29 13:29:34.123 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API) in 26.5552ms
+2024-02-29 13:29:34.124 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:29:34.124 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63 - 200 - application/json;+charset=utf-8 34.6706ms
+2024-02-29 13:29:36.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:36.438 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:36.439 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:36.440 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:36.443 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:36.446 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:36.448 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:36.449 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 8.2756ms
+2024-02-29 13:29:36.451 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:36.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 16.1965ms
+2024-02-29 13:29:37.636 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:37.637 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:37.638 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:37.639 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:37.642 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:37.645 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:37.646 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:37.647 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 6.244ms
+2024-02-29 13:29:37.649 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:37.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 13.2077ms
+2024-02-29 13:29:38.629 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:38.630 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:38.631 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:38.631 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:38.634 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:38.636 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:38.637 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:38.639 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 6.1014ms
+2024-02-29 13:29:38.640 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:38.641 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 11.8622ms
+2024-02-29 13:29:39.681 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:39.682 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:39.683 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - - - 204 - - 2.1030ms
+2024-02-29 13:29:39.685 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:29:39.686 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:29:39.686 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:39.687 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-02-29 13:29:39.690 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-02-29 13:29:39.692 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-02-29 13:29:39.695 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-02-29 13:29:39.696 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 7.8377ms
+2024-02-29 13:29:39.697 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-02-29 13:29:39.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 13.8431ms
+2024-02-29 13:30:34.604 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:30:34.605 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:30:34.606 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - - - 204 - - 2.0793ms
+2024-02-29 13:30:34.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:30:34.611 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:30:34.613 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-02-29 13:30:34.614 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+2024-02-29 13:30:34.615 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:30:34.616 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:30:34.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 401 0 - 7.4419ms
+2024-02-29 13:30:34.622 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/auth/refreshtokenlogin - -
+2024-02-29 13:30:34.623 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:30:34.623 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/auth/refreshtokenlogin - - - 204 - - 1.7901ms
+2024-02-29 13:30:34.625 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63
+2024-02-29 13:30:34.626 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:30:34.627 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:30:34.628 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:30:34.634 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."RefreshToken" = @__refreshToken_0
+LIMIT 1
+2024-02-29 13:30:34.733 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API) in 103.6021ms
+2024-02-29 13:30:34.735 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:30:34.798 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ETicaretAPI.Application.Exceptions.NotFoundUserException: Kullanıcı adı veya şifre hatalı.
+   at ETicaretAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Services\AuthService.cs:line 151
+   at ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Controllers\AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Program.cs:line 102
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-29 13:30:34.851 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63 - 500 - text/plain;+charset=utf-8 226.5182ms
+2024-02-29 13:30:36.748 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:30:36.749 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:30:36.751 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-02-29 13:30:36.752 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+2024-02-29 13:30:36.754 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:30:36.755 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:30:36.756 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 401 0 - 8.3371ms
+2024-02-29 13:30:36.765 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63
+2024-02-29 13:30:36.766 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:30:36.767 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:30:36.767 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:30:36.781 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."RefreshToken" = @__refreshToken_0
+LIMIT 1
+2024-02-29 13:30:36.872 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API) in 103.4491ms
+2024-02-29 13:30:36.874 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:30:36.930 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ETicaretAPI.Application.Exceptions.NotFoundUserException: Kullanıcı adı veya şifre hatalı.
+   at ETicaretAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Services\AuthService.cs:line 151
+   at ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Controllers\AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Program.cs:line 102
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-29 13:30:36.937 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63 - 500 - text/plain;+charset=utf-8 172.4683ms
+2024-02-29 13:30:38.100 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-02-29 13:30:38.101 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:30:38.102 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-02-29 13:30:38.104 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+2024-02-29 13:30:38.104 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-29 13:30:38.105 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-02-29 13:30:38.106 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 401 0 - 6.0314ms
+2024-02-29 13:30:38.113 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63
+2024-02-29 13:30:38.114 +03:00 [INF] CORS policy execution successful.
+2024-02-29 13:30:38.115 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:30:38.116 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-02-29 13:30:38.120 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__refreshToken_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."RefreshToken" = @__refreshToken_0
+LIMIT 1
+2024-02-29 13:30:38.193 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API) in 75.8216ms
+2024-02-29 13:30:38.195 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin (ETicaretAPI.API)'
+2024-02-29 13:30:38.253 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ETicaretAPI.Application.Exceptions.NotFoundUserException: Kullanıcı adı veya şifre hatalı.
+   at ETicaretAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Services\AuthService.cs:line 151
+   at ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ETicaretAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Controllers\AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_5>d.MoveNext() in C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\Program.cs:line 102
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-29 13:30:38.260 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/refreshtokenlogin application/json 63 - 500 - text/plain;+charset=utf-8 147.1773ms
+2024-03-04 01:07:42.483 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-04 01:07:42.887 +03:00 [INF] Now listening on: https://localhost:7198
+2024-03-04 01:07:42.888 +03:00 [INF] Now listening on: http://localhost:5284
+2024-03-04 01:07:42.893 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-04 01:07:42.895 +03:00 [INF] Hosting environment: Development
+2024-03-04 01:07:42.896 +03:00 [INF] Content root path: C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-03-04 01:29:22.518 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-04 01:29:22.898 +03:00 [INF] Now listening on: https://localhost:7198
+2024-03-04 01:29:22.900 +03:00 [INF] Now listening on: http://localhost:5284
+2024-03-04 01:29:22.907 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-04 01:29:22.908 +03:00 [INF] Hosting environment: Development
+2024-03-04 01:29:22.910 +03:00 [INF] Content root path: C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-03-04 01:30:09.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products - -
+2024-03-04 01:30:09.477 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-purpose: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+purpose: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 01:30:09.483 +03:00 [INF] CORS policy execution successful.
+2024-03-04 01:30:09.581 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-04 01:30:09.590 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-03-04 01:30:09.592 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-03-04 01:30:09.604 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products - - - 401 0 - 227.6813ms
+2024-03-04 01:30:10.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products - -
+2024-03-04 01:30:10.018 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-purpose: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+purpose: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 01:30:10.020 +03:00 [INF] CORS policy execution successful.
+2024-03-04 01:30:10.022 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-04 01:30:10.028 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-03-04 01:30:10.029 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-03-04 01:30:10.030 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products - - - 401 0 - 14.0809ms
+2024-03-04 01:30:24.581 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/auth/google-login - -
+2024-03-04 01:30:24.583 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 01:30:24.585 +03:00 [INF] CORS policy execution successful.
+2024-03-04 01:30:24.588 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-03-04 01:30:24.589 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/auth/google-login - - - 204 - - 8.2998ms
+2024-03-04 01:30:24.594 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/google-login application/json 1476
+2024-03-04 01:30:24.599 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: application/json, text/plain, */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 1476
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 01:30:24.600 +03:00 [INF] CORS policy execution successful.
+2024-03-04 01:30:24.610 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.GoogleLogin (ETicaretAPI.API)'
+2024-03-04 01:30:24.672 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-03-04 01:30:24.718 +03:00 [INF] RequestBody: {"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjZmOTc3N2E2ODU5MDc3OThlZjc5NDA2MmMwMGI2NWQ2NmMyNDBiMWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc1NzIxMTEyMjExLTh0a2tsZDRsczlsbHJ2bGtqNTgwNTlsOThtaTdzamozLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3NTcyMTExMjIxMS04dGtrbGQ0bHM5bGxydmxrajU4MDU5bDk4bWk3c2pqMy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMTUxNDk1ODc0ODE3OTAzNjgzNSIsImVtYWlsIjoibmVjcm9tb25hc0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzA5NTA0NTE3LCJuYW1lIjoiw5Z6Z8O8biDFnmFoaW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSk1sQmpPdU9lX3VjdGZMaElYT3k5MzVEOUpJUWRlYkJ1dDJzU2hsUW9fT3c9czk2LWMiLCJnaXZlbl9uYW1lIjoiw5Z6Z8O8biIsImZhbWlseV9uYW1lIjoixZ5haGluIiwibG9jYWxlIjoidHIiLCJpYXQiOjE3MDk1MDQ4MTcsImV4cCI6MTcwOTUwODQxNywianRpIjoiNGZjODlkNmFmM2VhNzc4MDM0MGY1NTQ1NzczZDI0ZjFiOTY3OGJlMSJ9.gsIlMUMEGJjdmsuzfyGtwdhR7Me-OWNzKUHgV4sUDjRVBGu27q1xv8el8bwzCn0oXt9vzCY_HqwlLV7Dj6YQIVDpdK42VHrGLDWUw-k6BIo7e4FXFYCgv3cvSHf2yBthLQSuPTooqOyTw27kp12J8eGkh5mEKPoSI6u2Mpon6Hg5arRmDrHcj3LQDm8AdgbinITAiAYTyuP7Nl-p80TNVtqOyZSrAukTXr9uvBu31vmB3NKO-1lSplVa6Rwm3g9YirQPq-XWvOEhNfs5Smnujs8TOH4fzr0Mqc_MjIcK2cic5DU1bfIEB_1KsJ1437WkX_CfQxzfu0YMFYgHwkjU3Q","id":"101514958748179036835","name":"Özgün Şahin","email":"necromonas@gmail.com","photoUrl":"https://lh3.googleusercontent.com/a/ACg8ocJMlBjOuOe_uctfLhIXOy935D9JIQdebBut2sShlQo_Ow=s96-c","firstName":"Özgün","lastName":"Şahin","provider":"GOOGLE"}
+2024-03-04 01:30:27.458 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2024-03-04 01:30:27.637 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2024-03-04 01:30:27.704 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2024-03-04 01:30:27.710 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2024-03-04 01:30:27.715 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2024-03-04 01:30:27.861 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-03-04 01:30:28.052 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NamemSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-03-04 01:30:28.090 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2024-03-04 01:30:28.134 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-03-04 01:30:28.144 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.GoogleLogin (ETicaretAPI.API) in 3464.3498ms
+2024-03-04 01:30:28.147 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.GoogleLogin (ETicaretAPI.API)'
+2024-03-04 01:30:28.150 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibmVjcm9tb25hc0BnbWFpbC5jb20iLCJuYmYiOjE3MDk1MDUwMjcsImV4cCI6MTcwOTUwNTA0MiwiaXNzIjoid3d3Lm5lY3JvYXBpLmNvbSIsImF1ZCI6Ind3dy5uZWNyb21vbmFzLmNvbSJ9.v8IVY13T7d7Jshki_kFPAvkCFiKKSuhI_SvYumPCKbI","expiration":"2024-03-03T22:30:42.7181761Z","refreshToken":"Vw1Kn0jbeRU3jkyqYeqpFzaPyEleNPOP98QJ8YfV6IA="}}
+2024-03-04 01:30:28.181 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/google-login application/json 1476 - 200 - application/json;+charset=utf-8 3586.0603ms
+2024-03-04 01:30:31.983 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - -
+2024-03-04 01:30:31.984 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 01:30:31.985 +03:00 [INF] CORS policy execution successful.
+2024-03-04 01:30:31.986 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-03-04 01:30:31.987 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - - - 204 - - 3.6446ms
+2024-03-04 01:30:31.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-03-04 01:30:31.989 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 01:30:31.990 +03:00 [INF] CORS policy execution successful.
+2024-03-04 01:30:32.077 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-03-04 01:30:32.083 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-03-04 01:30:32.101 +03:00 [INF] Ürünler Listelendi!
+2024-03-04 01:30:32.224 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-03-04 01:30:32.242 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-04 01:30:32.243 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-04 01:30:32.262 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-03-04 01:30:32.269 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-03-04 01:30:32.301 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-03-04 01:30:32.302 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 216.8278ms
+2024-03-04 01:30:32.303 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-03-04 01:30:32.304 +03:00 [INF] ResponseBody: {"totalCount":4,"products":[{"id":"27159e41-56e0-4f19-bc1a-3d73b9835bd9","name":"Kağıt","stock":200,"price":25,"createdDate":"2023-08-21T20:18:39.124672Z","updatedDate":"0001-01-01T00:00:00"},{"id":"29c1faa4-530b-49db-a451-68e5bd6d8486","name":"Kalem","stock":31,"price":31,"createdDate":"2023-10-10T23:50:14.512869Z","updatedDate":"0001-01-01T00:00:00"},{"id":"3e35bf96-a3f3-4507-b32b-0afccdef637c","name":"dsada","stock":3,"price":5,"createdDate":"2023-10-31T11:49:34.297637Z","updatedDate":"0001-01-01T00:00:00"},{"id":"1ef11ac3-f754-4214-a1b2-1f4eadeb36d5","name":"bokas","stock":31,"price":31,"createdDate":"2024-02-26T16:28:40.870823Z","updatedDate":"0001-01-01T00:00:00"}]}
+2024-03-04 01:30:32.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 316.3912ms
+2024-03-04 01:30:35.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-03-04 01:30:35.675 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 01:30:35.676 +03:00 [INF] CORS policy execution successful.
+2024-03-04 01:30:35.677 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-03-04 01:30:35.679 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-03-04 01:30:35.682 +03:00 [INF] Ürünler Listelendi!
+2024-03-04 01:30:35.695 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-03-04 01:30:35.699 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-03-04 01:30:35.701 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-03-04 01:30:35.702 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-03-04 01:30:35.702 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 22.2616ms
+2024-03-04 01:30:35.704 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-03-04 01:30:35.705 +03:00 [INF] ResponseBody: {"totalCount":4,"products":[{"id":"27159e41-56e0-4f19-bc1a-3d73b9835bd9","name":"Kağıt","stock":200,"price":25,"createdDate":"2023-08-21T20:18:39.124672Z","updatedDate":"0001-01-01T00:00:00"},{"id":"29c1faa4-530b-49db-a451-68e5bd6d8486","name":"Kalem","stock":31,"price":31,"createdDate":"2023-10-10T23:50:14.512869Z","updatedDate":"0001-01-01T00:00:00"},{"id":"3e35bf96-a3f3-4507-b32b-0afccdef637c","name":"dsada","stock":3,"price":5,"createdDate":"2023-10-31T11:49:34.297637Z","updatedDate":"0001-01-01T00:00:00"},{"id":"1ef11ac3-f754-4214-a1b2-1f4eadeb36d5","name":"bokas","stock":31,"price":31,"createdDate":"2024-02-26T16:28:40.870823Z","updatedDate":"0001-01-01T00:00:00"}]}
+2024-03-04 01:30:35.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 31.4189ms
+2024-03-04 02:00:54.440 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-04 02:01:07.434 +03:00 [INF] User profile is available. Using 'C:\Users\ozgun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-04 02:01:07.823 +03:00 [INF] Now listening on: https://localhost:7198
+2024-03-04 02:01:07.825 +03:00 [INF] Now listening on: http://localhost:5284
+2024-03-04 02:01:07.829 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-04 02:01:07.830 +03:00 [INF] Hosting environment: Development
+2024-03-04 02:01:07.831 +03:00 [INF] Content root path: C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-03-04 02:01:55.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products - -
+2024-03-04 02:01:55.995 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 02:01:56.001 +03:00 [INF] CORS policy execution successful.
+2024-03-04 02:01:56.221 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-04 02:01:56.230 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-03-04 02:01:56.232 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-03-04 02:01:56.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products - - - 401 0 - 363.4178ms
+2024-03-04 02:02:06.191 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/auth/google-login - -
+2024-03-04 02:02:06.193 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 02:02:06.195 +03:00 [INF] CORS policy execution successful.
+2024-03-04 02:02:06.197 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-03-04 02:02:06.198 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/auth/google-login - - - 204 - - 7.3770ms
+2024-03-04 02:02:06.202 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7198/api/auth/google-login application/json 1476
+2024-03-04 02:02:06.207 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: application/json, text/plain, */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 1476
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 02:02:06.211 +03:00 [INF] CORS policy execution successful.
+2024-03-04 02:02:06.219 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.AuthController.GoogleLogin (ETicaretAPI.API)'
+2024-03-04 02:02:06.295 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaretAPI.API.Controllers.AuthController (ETicaretAPI.API).
+2024-03-04 02:02:06.344 +03:00 [INF] RequestBody: {"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjZmOTc3N2E2ODU5MDc3OThlZjc5NDA2MmMwMGI2NWQ2NmMyNDBiMWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc1NzIxMTEyMjExLTh0a2tsZDRsczlsbHJ2bGtqNTgwNTlsOThtaTdzamozLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3NTcyMTExMjIxMS04dGtrbGQ0bHM5bGxydmxrajU4MDU5bDk4bWk3c2pqMy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMTUxNDk1ODc0ODE3OTAzNjgzNSIsImVtYWlsIjoibmVjcm9tb25hc0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzA5NTA2NDE5LCJuYW1lIjoiw5Z6Z8O8biDFnmFoaW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSk1sQmpPdU9lX3VjdGZMaElYT3k5MzVEOUpJUWRlYkJ1dDJzU2hsUW9fT3c9czk2LWMiLCJnaXZlbl9uYW1lIjoiw5Z6Z8O8biIsImZhbWlseV9uYW1lIjoixZ5haGluIiwibG9jYWxlIjoidHIiLCJpYXQiOjE3MDk1MDY3MTksImV4cCI6MTcwOTUxMDMxOSwianRpIjoiN2ViOTUwNWIyOTRhMzVmOTE0MjkyYjFiODRhMDU5ZWE2YWVjMDRlNyJ9.jPgMhlYrMcMS0WH_HsJgst4y7XCTE6YQmDGGM8ystlo_nPp1iuiSaACXDCczVVPy25uy1dcMQDXymIdk1cd82R0UEDxfsc2vAmNJMLe1V59N4X6w2RzJthEGpba2_K33SEtEtXvAAFSrHs_fSkJ_iKPFmQr7zZze5ffY27CXVKz0UCwx4s9W7CQIe65F0tiNfg0F1_py0cRN7y7dJjlgUIbTZTpv-yvd10EndNccf4FCtRS4cd1RIxx7IYC6uQAtXeDvgeMPxU6Ru9o3srE9jK52wTRzW-HL4ac-rhfKDPDRm8vLF55_IoaWBU39FilS1VxPucKJN9nJBhylqy3U4A","id":"101514958748179036835","name":"Özgün Şahin","email":"necromonas@gmail.com","photoUrl":"https://lh3.googleusercontent.com/a/ACg8ocJMlBjOuOe_uctfLhIXOy935D9JIQdebBut2sShlQo_Ow=s96-c","firstName":"Özgün","lastName":"Şahin","provider":"GOOGLE"}
+2024-03-04 02:02:09.155 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2024-03-04 02:02:09.338 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2024-03-04 02:02:09.404 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2024-03-04 02:02:09.409 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2024-03-04 02:02:09.413 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2024-03-04 02:02:09.557 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NamemSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-03-04 02:02:09.705 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NamemSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-03-04 02:02:09.742 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2024-03-04 02:02:09.778 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-03-04 02:02:09.786 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.AuthController.GoogleLogin (ETicaretAPI.API) in 3483.7949ms
+2024-03-04 02:02:09.788 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.AuthController.GoogleLogin (ETicaretAPI.API)'
+2024-03-04 02:02:09.791 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibmVjcm9tb25hc0BnbWFpbC5jb20iLCJuYmYiOjE3MDk1MDY5MjksImV4cCI6MTcwOTUwNjk0NCwiaXNzIjoid3d3Lm5lY3JvYXBpLmNvbSIsImF1ZCI6Ind3dy5uZWNyb21vbmFzLmNvbSJ9.Dn4wK66QWmW0gCK9HutQ7GUIuHToMpFXnR_oU4liYPk","expiration":"2024-03-03T23:02:24.416826Z","refreshToken":"D2OPxgXoQMqEl20GUf4+vwsKLwF8cxLzBsDuWLVIsdU="}}
+2024-03-04 02:02:09.813 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7198/api/auth/google-login application/json 1476 - 200 - application/json;+charset=utf-8 3610.7037ms
+2024-03-04 02:02:13.676 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - -
+2024-03-04 02:02:13.678 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 02:02:13.679 +03:00 [INF] CORS policy execution successful.
+2024-03-04 02:02:13.680 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-03-04 02:02:13.681 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7198/api/products?page=0&size=5 - - - 204 - - 4.1460ms
+2024-03-04 02:02:13.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - -
+2024-03-04 02:02:13.684 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7198
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,tr-TR;q=0.8,tr;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-04 02:02:13.684 +03:00 [INF] CORS policy execution successful.
+2024-03-04 02:02:13.767 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-03-04 02:02:13.775 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductsController (ETicaretAPI.API).
+2024-03-04 02:02:13.793 +03:00 [INF] Ürünler Listelendi!
+2024-03-04 02:02:13.900 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-03-04 02:02:13.918 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-04 02:02:13.920 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-04 02:02:13.936 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2024-03-04 02:02:13.946 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-03-04 02:02:13.986 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-03-04 02:02:13.987 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API) in 210.2022ms
+2024-03-04 02:02:13.989 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductsController.Get (ETicaretAPI.API)'
+2024-03-04 02:02:13.990 +03:00 [INF] ResponseBody: {"totalCount":4,"products":[{"id":"27159e41-56e0-4f19-bc1a-3d73b9835bd9","name":"Kağıt","stock":200,"price":25,"createdDate":"2023-08-21T20:18:39.124672Z","updatedDate":"0001-01-01T00:00:00"},{"id":"29c1faa4-530b-49db-a451-68e5bd6d8486","name":"Kalem","stock":31,"price":31,"createdDate":"2023-10-10T23:50:14.512869Z","updatedDate":"0001-01-01T00:00:00"},{"id":"3e35bf96-a3f3-4507-b32b-0afccdef637c","name":"dsada","stock":3,"price":5,"createdDate":"2023-10-31T11:49:34.297637Z","updatedDate":"0001-01-01T00:00:00"},{"id":"1ef11ac3-f754-4214-a1b2-1f4eadeb36d5","name":"bokas","stock":31,"price":31,"createdDate":"2024-02-26T16:28:40.870823Z","updatedDate":"0001-01-01T00:00:00"}]}
+2024-03-04 02:02:13.991 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7198/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 308.3982ms
