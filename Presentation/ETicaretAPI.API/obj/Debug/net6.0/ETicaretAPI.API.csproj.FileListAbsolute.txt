@@ -114,3 +114,5 @@ C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\E
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Serilog.Sinks.PostgreSQL.dll
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
+C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.SignalR.dll
+C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.SignalR.pdb
