@@ -62,6 +62,8 @@ namespace ETicaretAPI.Persistence
 
             services.AddScoped<IBasketServices, BasketService>();
 
+            services.AddScoped<IOrderService, OrderService>();
+
         }
     }
 }
