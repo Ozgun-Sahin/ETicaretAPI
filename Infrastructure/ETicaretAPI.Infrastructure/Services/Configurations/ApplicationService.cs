@@ -17,7 +17,7 @@ namespace ETicaretAPI.Infrastructure.Services.Configurations
 {
     public class ApplicationService : IApplicationService
     {
-        public List<Menu> GetAuthorizeDefinitonEndpoints(Type type)
+        public List<Menu> GetAuthorizeDefinitionEndpoints(Type type)
         {
             Assembly assembly = Assembly.GetAssembly(type);
             var controllers = assembly.GetTypes().Where(t => t.IsAssignableTo(typeof(ControllerBase)));
@@ -25,12 +25,11 @@ namespace ETicaretAPI.Infrastructure.Services.Configurations
             List<Menu> menus = new();
 
             if (controllers != null)
-            {
                 foreach (var controller in controllers)
                 {
                     var actions = controller.GetMethods().Where(m => m.IsDefined(typeof(AuthorizeDefinitionAttribute)));
                     if (actions != null)
-                    {
+                    
                         foreach (var action in actions)
                         {
                             var attributes = action.GetCustomAttributes(true);
@@ -42,38 +41,31 @@ namespace ETicaretAPI.Infrastructure.Services.Configurations
                                     .FirstOrDefault(a => a.GetType() == typeof(AuthorizeDefinitionAttribute)) as AuthorizeDefinitionAttribute;
                                 if (!menus.Any(m => m.Name == authorizeDefinitionAttribute.Menu))
                                 {
-                                    menu = new Menu() { Name = authorizeDefinitionAttribute.Menu };
+                                    menu = new() { Name = authorizeDefinitionAttribute.Menu };
                                     menus.Add(menu);
                                 }
                                 else
-                                {
                                     menu = menus.FirstOrDefault(m => m.Name == authorizeDefinitionAttribute.Menu);
-                                }
 
                                 Application.DTOs.Configuration.Action _action = new()
                                 {
                                     ActionType = Enum.GetName(typeof(ActionType), authorizeDefinitionAttribute.ActionType),
-                                    Definiton = authorizeDefinitionAttribute.Definition
+                                    Definition = authorizeDefinitionAttribute.Definition
                                 };
 
                                 var httpAttribute = attributes
                                     .FirstOrDefault(a => a.GetType().IsAssignableTo(typeof(HttpMethodAttribute))) as HttpMethodAttribute;
                                 if (httpAttribute != null) 
-                                {
                                     _action.HttpType = httpAttribute.HttpMethods.First();
-                                }
                                 else
-                                {
                                     _action.HttpType = HttpMethods.Get;
-                                }
-                                _action.Code = $"{_action.HttpType}.{_action.ActionType}.{_action.Definiton.Replace(" ","")}";
+                      
+                                _action.Code = $"{_action.HttpType}.{_action.ActionType}.{_action.Definition.Replace(" ","")}";
 
                                 menu.Actions.Add(_action);
                             }
                         }
-                    }
                 }
-            }
             return menus;
         }
     }

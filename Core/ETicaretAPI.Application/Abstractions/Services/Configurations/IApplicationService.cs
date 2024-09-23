@@ -9,6 +9,6 @@ namespace ETicaretAPI.Application.Abstractions.Services.Configurations
 {
     public interface IApplicationService
     {
-        List<Menu> GetAuthorizeDefinitonEndpoints(Type type);
+        List<Menu> GetAuthorizeDefinitionEndpoints(Type type);
     }
 }
