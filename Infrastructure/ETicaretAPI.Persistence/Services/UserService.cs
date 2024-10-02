@@ -6,6 +6,7 @@ using ETicaretAPI.Application.Helpers;
 using ETicaretAPI.Domain.Entities.Identity;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,8 @@ namespace ETicaretAPI.Persistence.Services
     public class UserService : IUserService
     {
         readonly UserManager<u.AppUser> _userManager;
+
+
 
         public UserService(UserManager<AppUser> userManager)
         {
@@ -68,7 +71,7 @@ namespace ETicaretAPI.Persistence.Services
         public async Task UpdatePasswordAsync(string userId, string resetToken, string newPassword)
         {
             AppUser user = await _userManager.FindByIdAsync(userId);
-            if (user != null) 
+            if (user != null)
             {
                 resetToken = resetToken.UrlDecode();
                 IdentityResult result = await _userManager.ResetPasswordAsync(user, resetToken, newPassword);
@@ -83,5 +86,49 @@ namespace ETicaretAPI.Persistence.Services
                 }
             }
         }
+
+        public async Task<List<ListUser_DTO>> GetAllUsersAsync(int page, int size)
+        {
+            var users = await _userManager.Users
+                .Skip(page * size)
+                .Take(size)
+                .ToListAsync();
+
+            return users.Select(user => new ListUser_DTO
+            {
+                Id = user.Id,
+                Email = user.Email,
+                NamemSurname = user.NamemSurname,
+                TwoFactorEnabled = user.TwoFactorEnabled,
+                UserName = user.UserName
+
+            }).ToList();
+        }
+
+        public async Task AssignRoleToUserAsync(string userId, string[] roles)
+        {
+            AppUser user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                var userRoles = await _userManager.GetRolesAsync(user);
+
+                await _userManager.RemoveFromRolesAsync(user, userRoles);
+
+                await _userManager.AddToRolesAsync(user, roles);
+            }
+        }
+
+        public async Task<string[]> GetRolesToUserAsync(string userId)
+        {
+            AppUser user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                var userRoles = await _userManager.GetRolesAsync(user);
+                return userRoles.ToArray();
+            }
+            return new string[] { };
+        }
+
+        public int TotalUsersCount => _userManager.Users.Count();
     }
 }
