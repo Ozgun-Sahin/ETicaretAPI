@@ -12,3 +12,17 @@ C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretA
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Domain\bin\Debug\net6.0\ETicaretAPI.Domain.runtimeconfig.json
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.genruntimeconfig.cache
 C:\Users\ozgun\OneDrive\Masaüstü\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.csproj.AssemblyReference.cache
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\bin\Debug\net6.0\ETicaretAPI.Domain.deps.json
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\bin\Debug\net6.0\ETicaretAPI.Domain.runtimeconfig.json
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\bin\Debug\net6.0\ETicaretAPI.Domain.dll
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\bin\Debug\net6.0\ETicaretAPI.Domain.pdb
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.csproj.AssemblyReference.cache
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.AssemblyInfoInputs.cache
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.AssemblyInfo.cs
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.csproj.CoreCompileInputs.cache
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.dll
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\refint\ETicaretAPI.Domain.dll
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.pdb
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.genruntimeconfig.cache
+D:\Hebel\ETicaretAPI-main\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ref\ETicaretAPI.Domain.dll

@@ -4897,11 +4897,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+      "projectUniqueName": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
       "projectName": "ETicaretAPI.API",
-      "projectPath": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+      "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
       "packagesPath": "C:\\Users\\ozgun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\obj\\",
+      "outputPath": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4922,17 +4922,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
+            "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
+              "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
             },
-            "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ETicaretAPI.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ETicaretAPI.Infrastructure.csproj"
+            "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.Infrastructure\\ETicaretAPI.Infrastructure.csproj": {
+              "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.Infrastructure\\ETicaretAPI.Infrastructure.csproj"
             },
-            "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj": {
-              "projectPath": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj"
+            "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj": {
+              "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj"
             },
-            "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj": {
-              "projectPath": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj"
+            "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj": {
+              "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj"
             }
           }
         }

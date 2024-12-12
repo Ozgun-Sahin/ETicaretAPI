@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VxlDEfGre/NoYsGjC+uX9+8CGJQs4XVdbL9QYTnbWFLQ6Dnyv/PC6gRC5EL7e8+mc+XjTqVDiP1yR6xcbELT3A==",
+  "dgSpecHash": "JHEjdpentCepl8PopQfYykzCwgZsYxXy5eFz22/MRk8ZHANT0RpNarsIwKn6L1a0tzCGGhIw4wfA/rk3/EOEkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
+  "projectFilePath": "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ozgun\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\ozgun\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VTP/KL4Hc/0k8ZF7P00ViCvKnxC8xQVwHlMlo5BrQJj9DgK+HnxF/aQ/q5o2IbC4U0nmp1QAVdJdA7OikGNMLg==",
+  "dgSpecHash": "Y59FCVMg3/nRK7JB9ub5CO7plKipav26q3zd6T4BrQmEwtUNr/Zf3Pne0fro8OiSgoDi+t/iqMCig+WFUpES9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+  "projectFilePath": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ozgun\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ozgun\\.nuget\\packages\\azure.storage.blobs\\12.18.0\\azure.storage.blobs.12.18.0.nupkg.sha512",

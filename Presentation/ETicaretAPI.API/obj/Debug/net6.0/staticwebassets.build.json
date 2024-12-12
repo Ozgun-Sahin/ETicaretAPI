@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5HpEM/gOCg7X7N2mZUK1XBmOB4rBgMUz9fd5XAK4feI=",
+  "Hash": "Zr3UGT82kw5WmsQkdzikC2ahGViPaW+CuMgZTvpD4+s=",
   "Source": "ETicaretAPI.API",
   "BasePath": "_content/ETicaretAPI.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ETicaretAPI.API\\wwwroot",
       "Source": "ETicaretAPI.API",
-      "ContentRoot": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "ContentRoot": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\",
       "BasePath": "_content/ETicaretAPI.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\photo-images\\Tensler.jpg",
+      "Identity": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\photo-images\\Tensler.jpg",
       "SourceId": "ETicaretAPI.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "ContentRoot": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\",
       "BasePath": "_content/ETicaretAPI.API",
       "RelativePath": "photo-images/Tensler.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\photo-images\\Tensler.jpg"
     },
     {
-      "Identity": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resoruce\\files\\OS_CV.pdf",
+      "Identity": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\resoruce\\files\\OS_CV.pdf",
       "SourceId": "ETicaretAPI.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "ContentRoot": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\",
       "BasePath": "_content/ETicaretAPI.API",
       "RelativePath": "resoruce/files/OS_CV.pdf",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\resoruce\\files\\OS_CV.pdf"
     },
     {
-      "Identity": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resoruce\\files\\Tensler.jpg",
+      "Identity": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\resoruce\\files\\Tensler.jpg",
       "SourceId": "ETicaretAPI.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "ContentRoot": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\",
       "BasePath": "_content/ETicaretAPI.API",
       "RelativePath": "resoruce/files/Tensler.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\resoruce\\files\\Tensler.jpg"
     },
     {
-      "Identity": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resource\\product-images\\Tensler.jpg",
+      "Identity": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\resource\\product-images\\Tensler.jpg",
       "SourceId": "ETicaretAPI.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "ContentRoot": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\",
       "BasePath": "_content/ETicaretAPI.API",
       "RelativePath": "resource/product-images/Tensler.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\resource\\product-images\\Tensler.jpg"
     },
     {
-      "Identity": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resource\\product-images\\Tensler-2.jpg",
+      "Identity": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\resource\\product-images\\Tensler-2.jpg",
       "SourceId": "ETicaretAPI.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ozgun\\OneDrive\\Masaüstü\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "ContentRoot": "D:\\Hebel\\ETicaretAPI-main\\Presentation\\ETicaretAPI.API\\wwwroot\\",
       "BasePath": "_content/ETicaretAPI.API",
       "RelativePath": "resource/product-images/Tensler-2.jpg",
       "AssetKind": "All",
