@@ -2667,11 +2667,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
+      "projectUniqueName": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
       "projectName": "ETicaretAPI.Application",
-      "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
+      "projectPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
       "packagesPath": "C:\\Users\\ozgun\\.nuget\\packages\\",
-      "outputPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\obj\\",
+      "outputPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2692,8 +2692,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
-              "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj"
+            "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
+              "projectPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj"
             }
           }
         }

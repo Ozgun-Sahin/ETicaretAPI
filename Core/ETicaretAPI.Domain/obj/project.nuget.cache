@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oJmazeu3lxiTu2UgSyManHQGhn9+mHKWNqAtvuPwCI7I2dS5vAW0goTLgFNDX7Dme7YuYrkKhEVo6t8efB1FsA==",
+  "dgSpecHash": "HfUuI9b/EsSfd6cmZkH3jOcicfcGNa+jh53yfq/oFMwjnYbDDF+yCvSApcvu7+rYFOZmoxPOWPD4EWuhlzFaPA==",
   "success": true,
-  "projectFilePath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+  "projectFilePath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ozgun\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ozgun\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

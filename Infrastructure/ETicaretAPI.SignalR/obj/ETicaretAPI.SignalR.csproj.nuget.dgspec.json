@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj": {}
+    "D:\\Yepyedek\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj": {}
   },
   "projects": {
-    "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
+    "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
+        "projectUniqueName": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
         "projectName": "ETicaretAPI.Application",
-        "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
+        "projectPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
         "packagesPath": "C:\\Users\\ozgun\\.nuget\\packages\\",
-        "outputPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\obj\\",
+        "outputPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
-                "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj"
+              "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
+                "projectPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
+    "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+        "projectUniqueName": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
         "projectName": "ETicaretAPI.Domain",
-        "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+        "projectPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\ozgun\\.nuget\\packages\\",
-        "outputPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\obj\\",
+        "outputPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -182,14 +182,14 @@
         }
       }
     },
-    "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj": {
+    "D:\\Yepyedek\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj",
+        "projectUniqueName": "D:\\Yepyedek\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj",
         "projectName": "ETicaretAPI.SignalR",
-        "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj",
+        "projectPath": "D:\\Yepyedek\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\ETicaretAPI.SignalR.csproj",
         "packagesPath": "C:\\Users\\ozgun\\.nuget\\packages\\",
-        "outputPath": "D:\\Hebel\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\obj\\",
+        "outputPath": "D:\\Yepyedek\\ETicaretAPI-main\\Infrastructure\\ETicaretAPI.SignalR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -210,8 +210,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
-                "projectPath": "D:\\Hebel\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
+              "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
+                "projectPath": "D:\\Yepyedek\\ETicaretAPI-main\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
               }
             }
           }
